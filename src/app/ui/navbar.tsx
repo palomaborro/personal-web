@@ -2,12 +2,12 @@ import Link from "next/link";
 
 export default function Navbar() {
   const links = [
-    { name: "Resume", href: "/resume" },
-    { name: "Portfolio", href: "/portfolio" },
-    { name: "Contact", href: "/contact" },
+    { name: "Resume", href: "resume" },
+    { name: "Portfolio", href: "portfolio" },
+    { name: "Contact", href: "contact" },
   ];
   return (
-    <div className="flex items-center justify-center text-white space-x-4">
+    <div className="mr-20 flex items-center justify-center text-white space-x-4">
       {links.map((link) => {
         return (
           <Link
