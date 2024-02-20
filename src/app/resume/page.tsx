@@ -1,9 +1,11 @@
 export default function Resume() {
   return (
-    <main className="text-white min-h-screen flex flex-col ml-20 mr-20">
-      <h1 className="mt-6 mb-6 mr-40 ml-40 text-3xl font-bold">Experience</h1>
-      <div className="flex justify-between w-full mr-40 ml-40 mb-8">
-        <div className="text-2xl">
+    <main className="text-white min-h-screen flex flex-col max-w-[80%]">
+      <h1 className="mt-6 mb-6 mr-40 text-3xl font-bold xl:ml-40">
+        Experience
+      </h1>
+      <div className="justify-between w-full mr-40 mb-8 xl:ml-40 xl:flex">
+        <div className="text-2xl mb-2 xl:mb-0">
           <h2>Fundación Progreso y Salud </h2>
         </div>
         <div className="max-w-lg mr-80">
@@ -17,8 +19,8 @@ export default function Resume() {
           </p>
         </div>
       </div>
-      <div className="flex justify-between w-full mr-40 ml-40 mb-8">
-        <div className="text-2xl">
+      <div className="justify-between w-full mr-40 mb-8 xl:ml-40 xl:flex">
+        <div className="text-2xl mb-2 xl:mb-0">
           <h2>Fundación Progreso y Salud </h2>
         </div>
         <div className="max-w-lg mr-80">
@@ -32,8 +34,8 @@ export default function Resume() {
           </p>
         </div>
       </div>
-      <div className="flex justify-between w-full mr-40 ml-40 mb-8">
-        <div className="text-2xl">
+      <div className="justify-between w-full mr-40 mb-8 xl:ml-40 xl:flex">
+        <div className="text-2xl mb-2 xl:mb-0">
           <h2>Fundación Progreso y Salud </h2>
         </div>
         <div className="max-w-lg mr-80">
