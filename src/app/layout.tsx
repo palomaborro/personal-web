@@ -1,9 +1,15 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 
 import { raleway } from "./ui/fonts";
 import "./ui/globals.css";
 import Navbar from "./ui/navbar";
+
+export const metadata: Metadata = {
+  title: "Sara Herráiz Gil",
+  description: "Bioinformatics and Systems Biology",
+};
 
 export default function RootLayout({
   children,
